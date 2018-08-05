@@ -14,9 +14,9 @@ Using Twitter API of streaming to implement the fixed size Reservoir Sampling Al
 
 ### Library Dependencies: 
 
-[tweepy (python)](http://docs.tweepy.org/en/v3.5.0/streaming how to.html)
-[spark-streaming-twitter (Scala)](http://bahir.apache.org/docs/spark/current/spark-streaming-twitter/)
-_and “spark-streaming”._
+[tweepy (python)](http://docs.tweepy.org/en/v3.5.0/streaming how to.html)  
+[spark-streaming-twitter (Scala)](http://bahir.apache.org/docs/spark/current/spark-streaming-twitter/)  
+_and “spark-streaming”._  
 
 
 ### Python command for getting Top-5 tweets algorithm using Reservoir Sampling Algorithm
