@@ -19,11 +19,11 @@ Using Twitter API of streaming to implement the fixed size Reservoir Sampling Al
 _and “spark-streaming”._  
 
 
-### Python command for getting Top-5 tweets algorithm using Reservoir Sampling Algorithm
+### Python command for getting Top-5 tweets using Reservoir Sampling Algorithm
 
 * * *
 
-Computing edge betweenness using _“Prasad\_Bhagwat\_ReservoirSampling.py”_ file
+Getting Top-5 tweets using _“Prasad\_Bhagwat\_ReservoirSampling.py”_ file
 
     spark-submit Prasad_Bhagwat_ReservoirSampling.py
     
@@ -33,11 +33,11 @@ Example usage of the above command is as follows:
      ~/Desktop/spark-2.2.1/bin/spark-submit Prasad_Bhagwat_ReservoirSampling.py
 
 
-### Scala command for getting Top-5 tweets algorithm using Reservoir Sampling Algorithm
+### Scala command for getting Top-5 tweets using Reservoir Sampling Algorithm
 
 * * *
 
-Computing edge betweenness using _“Prasad\_Bhagwat\_ReservoirSampling.jar”_ file
+Getting Top-5 tweets using _“Prasad\_Bhagwat\_ReservoirSampling.jar”_ file
 
     spark-submit --class ReservoirSampling Prasad_Bhagwat_ReservoirSampling.jar
     
