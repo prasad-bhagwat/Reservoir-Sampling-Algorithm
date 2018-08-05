@@ -8,8 +8,8 @@ Spark: 2.2.1
 Python: 2.7  
 Scala: 2.11
 
-### Problem Description:
-Using Twitter API of streaming to implement the fixed size Reservoir Sampling Algorithm and tracking the popular tags on tweets and calculating average length of tweets.  
+### Algorithm implementation approach:
+Using Twitter API of streaming to implement the fixed size Reservoir Sampling Algorithm and tracking the popular tags on tweets and calculating average length of tweets. We maintain a fixed reservoir of mentioned reservior size, when the streaming of the Twitter coming, till the reservoir size number of Tweets, we can directly store them in the reservoir. After that, for the nth tweet, with probability 100/n  we keep the nth tweet, else discard it. If we keep the nth Tweet, it will replace one of the Tweets in the reservoir and we need to randomly pick one to be replaced.  
 
 
 ### Library Dependencies: 
