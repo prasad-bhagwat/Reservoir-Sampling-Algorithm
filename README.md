@@ -50,7 +50,7 @@ Example usage of the above command is as follows:
 
 _Sample Output :_  
 _The number of the twitter from beginning: 350_  
-_Top 5 hot hashtags:_  
+_Top 5 trending hashtags:_  
 _USA : 3_  
 _EXO : 2_  
 _TheNewPainting : 1_  
