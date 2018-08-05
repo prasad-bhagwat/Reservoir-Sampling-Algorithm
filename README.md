@@ -40,12 +40,13 @@ Example usage of the above command is as follows:
      ~/Desktop/spark-2.2.1/bin/spark-submit --class ReservoirSampling Prasad_Bhagwat_ReservoirSampling.jar
 
 ### Sample Output:
-_Sample Output :_
-_The number of the twitter from beginning: 350_
-_Top 5 hot hashtags:_
-_USA : 3_
-_EXO : 2_
-_TheNewPainting : 1_
-_ButterflyCount : 1_
-_BarnOwl : 1_
-_The average length of the twitter is: 102.16_
+
+_Sample Output :_  
+_The number of the twitter from beginning: 350_  
+_Top 5 hot hashtags:_  
+_USA : 3_  
+_EXO : 2_  
+_TheNewPainting : 1_  
+_ButterflyCount : 1_  
+_BarnOwl : 1_  
+_The average length of the twitter is: 102.16_  
