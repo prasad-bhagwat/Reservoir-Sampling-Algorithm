@@ -32,7 +32,7 @@ Example usage of the above command is as follows:
 
 Computing edge betweenness using _“Prasad\_Bhagwat\_ReservoirSampling.jar”_ file
 
-    spark-submit --class Betweenness Prasad_Bhagwat_ReservoirSampling.jar
+    spark-submit --class ReservoirSampling Prasad_Bhagwat_ReservoirSampling.jar
     
 
 Example usage of the above command is as follows:  
