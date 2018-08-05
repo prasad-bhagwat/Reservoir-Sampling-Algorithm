@@ -82,7 +82,7 @@ class twitter_stream_listener(StreamListener):
 
                 # Printing the information of reservoir's current state by showing 5 most trending tweets
                 print "The number of the twitter from beginning:", tweet_count
-                print "Top 5 hot hashtags:"
+                print "Top 5 trending hashtags:"
                 hashtags    = sorted(hashtag_dict, key= hashtag_dict.get, reverse=True)
                 counter     = 0
                 for hashtag in hashtags:
