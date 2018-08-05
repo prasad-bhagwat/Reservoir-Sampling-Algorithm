@@ -97,7 +97,7 @@ object ReservoirSampling {
 
         // Printing the information of reservoir's current state by showing 5 most trending tweets
         println("The number of the twitter from beginning: "+ tweet_count)
-        println("Top 5 hot hashtags:")
+        println("Top 5 trending hashtags:")
         val hashtags    = LinkedHashMap(hashtag_dict.toSeq.sortWith(_._2 > _._2):_*)
         var counter     = 0
         for (hashtag <- hashtags){
