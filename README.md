@@ -1,4 +1,4 @@
-Reservoir Sampling using Twitter Streaming
+Trending hashtags in Twitter’s stream
 =====================================================
 
 
@@ -9,7 +9,7 @@ Python: 2.7
 Scala: 2.11
 
 ### Algorithm implementation approach:
-Using Twitter API of streaming to implement the fixed size Reservoir Sampling Algorithm and tracking the popular tags on tweets and calculating average length of tweets. We maintain a fixed reservoir of mentioned size. When the twitter stream is coming till the reservoir size number of tweets, we directly store them in the reservoir. After that, for the nth tweet, with probability (reservoir size / n)  we keep the nth tweet, else discard it. If we keep the nth tweet, it replaces one of the tweets in the reservoir and we need to randomly pick one to be replaced.  
+Fetched top 5 trending hashtags from twitter stream by utilizing twitter’s streaming API based on Spark streaming. I used the fixed size Reservoir Sampling Algorithm for fetching the top 5 trending hashtags and calculating average length of tweets. I have maintained a fixed reservoir of given size. When the twitter stream is coming till the reservoir size number of tweets, directly store these tweets in the reservoir. After that, for the nth tweet, with probability (reservoir size / n) keep the nth tweet, else discard it. If I keep the nth tweet, it replaces one of the tweets in the reservoirx	 and need to randomly pick one to be replaced.  
 
 
 ### Library Dependencies: 
