@@ -1,4 +1,4 @@
-Reservoir Sampling Algorithm for Twitter Streaming
+Reservoir Sampling using Twitter Streaming
 =====================================================
 
 
