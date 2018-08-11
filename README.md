@@ -1,4 +1,4 @@
-Reservoir Sampling Algorithm
+Reservoir Sampling Algorithm for Twitter Streaming
 =====================================================
 
 
@@ -49,11 +49,11 @@ Example usage of the above command is as follows:
 ### Sample Output:
 
 _Sample Output :_  
-_The number of the twitter from beginning: 350_  
+_The number of the tweets from beginning: 350_  
 _Top 5 trending hashtags:_  
 _USA : 3_  
 _EXO : 2_  
 _TheNewPainting : 1_  
 _ButterflyCount : 1_  
 _BarnOwl : 1_  
-_The average length of the twitter is: 102.16_  
+_The average length of the tweet is: 102.16_  
